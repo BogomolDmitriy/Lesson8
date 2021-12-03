@@ -19,6 +19,11 @@ namespace Lessons_2_Library
             return ((5 * A + B * B) / (B - A));
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="A"></param>
+        /// <param name="B"></param>
         public static void Task2(ref string A, ref string B)
         {
             string temp = A;
@@ -36,6 +41,13 @@ namespace Lessons_2_Library
             return (A / B, A % B);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="A"></param>
+        /// <param name="B"></param>
+        /// <param name="C"></param>
+        /// <returns></returns>
         public static double Task4(double A, double B, double C)
         {
             if (C - B == 0 && A == 0)
@@ -46,6 +58,14 @@ namespace Lessons_2_Library
 
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="X1"></param>
+        /// <param name="Y1"></param>
+        /// <param name="X2"></param>
+        /// <param name="Y2"></param>
+        /// <returns></returns>
         public static (double A, double B) Task5(double X1, double Y1, double X2, double Y2)
         {
             if (X1 == X2)

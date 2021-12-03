@@ -6,7 +6,6 @@ namespace Lesson8_Test
     public class VariablesTests
     {
         [TestCase(1, 2, 9)]
-        [TestCase(3, 5, 20)]
         [TestCase(-5, 4, -1)]
         [TestCase(-8, -2, -6)]
         [TestCase(0, -6, -6)]
