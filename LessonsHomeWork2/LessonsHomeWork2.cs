@@ -74,8 +74,6 @@ namespace Lessons_2_Library
             }
 
             double A = (Y2 - Y1) / (X1 - X2) / 2;
-            double B = Y2 - A * X2;
-
             return ((Y2 - Y1) / (X1 - X2) / 2, Y2 - A * X2);
 
         }
